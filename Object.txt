@@ -1,0 +1,18 @@
+public class Animals { 
+   	String color; 
+   	String voice; 
+	String species; 
+    
+   public Pet(String saigaColor, String saigaSpecies) { 
+      color = saigaColor; 
+      species = saigaSpecies; 
+   } 
+
+   public String getvoice(){ return voice; }  
+   public void say(){  
+        System.out.println("Voice: " + voice);  
+    }  
+   public static void main(String[] args) { 
+      Animals saiga1 = new Animals(“Brown”, “Saiga tatarica”); 
+   } 
+}
